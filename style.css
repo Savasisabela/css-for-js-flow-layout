@@ -24,12 +24,25 @@ header {
 }
 
 .intro-chunk {
-    max-width: 380px;
+    max-width: 415px;
     padding: 0 24px;
 }
 
 h1 {
-    margin-bottom: 48px;
+    margin-bottom: 3rem;
+    font-size: 2rem;
+    line-height: 1.2;
+}
+
+p {
+    font-size: 1.25rem;
+    line-height: 1.5;
+    margin: 0;
+    margin-bottom: 1rem;
+}
+
+p:last-child {
+    margin-bottom: 0;
 }
 
 strong {
@@ -50,13 +63,16 @@ main {
     padding-top: 8px;
 }
 
-h2 {
+.indented-heading {
+    font-size: 1.5rem;
+    line-height: 1.2;
     margin-top: 0;
     margin-left: -32px;
+    margin-bottom: 1rem;
     padding: 16px 32px;
     background-color: hsla(45, 100%, 50%, 1);
     border-bottom: 8px solid hsla(45, 100%, 40%, 1);
-    max-width: 398px;
+    max-width: fit-content;
 }
 
 em {
